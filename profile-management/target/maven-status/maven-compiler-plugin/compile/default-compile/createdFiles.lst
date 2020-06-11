@@ -1,0 +1,6 @@
+com/rs/profilemanagement/dao/ProfileRepository.class
+com/rs/profilemanagement/controller/EmployeeController.class
+com/rs/profilemanagement/domain/EmployeeProfile.class
+com/rs/profilemanagement/ProfileManagementApplication.class
+com/rs/profilemanagement/service/EmployeeProfileService.class
+com/rs/profilemanagement/service/EmployeeProfileServiceImpl.class

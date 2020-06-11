@@ -1,0 +1,2 @@
+create database profile_management;
+use profile_management;

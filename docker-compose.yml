@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  database:
+    container_name: profile-management
+    build:
+      context: ./database/
+      dockerfile: Dockerfile
+    volumes:
+      - db-data:/var/lib/mysql
+    ports:
+      - '3306:3306'
+    networks:
+      - backend
+
+volumes:
+  db-data:
+
+networks:
+  backend:
